@@ -1,20 +1,17 @@
 
-.card-container, main, .card
+.card-container
 {
     display: flex;
-    align-items: center;
-    flex-wrap: wrap;
     align-content: space-around;
-    border: 1px solid black;
 }
 .card
 {
-    flex-direction: column;
+    width: 50%;
+    height: 400px;
+    flex-direction: row;
 }
-img
+.texto-card
 {
-    display: flex;
-    align-content: space-around;
-    align-items: center;
-
+    text-align: center;
 }
+
